@@ -11,6 +11,7 @@ import Foundation
     public override init(){}
     @objc public class func getrandomstring() -> String
     {
+        // here get
         return UUID().uuidString
     }
 }
